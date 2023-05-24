@@ -696,7 +696,7 @@ if __name__ == '__main__':
     
     llm = OpenAI(model_name="gpt-3.5-turbo",max_tokens=102)
     llm("怎么评价人工智能")
-    loader = PyPDFLoader("./腾讯会议知识库.pdf")
+    loader = PyPDFLoader("./第六届全国高校经济决策虚仿实验大赛学生组问题解答.pdf")
     # pages = loader.load_and_split()
     pages = loader.load()
     #基于seperator划分，如果两个seperator之间的距离大于chunk_size,该chunk的size会大于chunk_size
